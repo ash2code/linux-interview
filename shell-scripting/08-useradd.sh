@@ -4,6 +4,7 @@
 
 username=$1
 
+# -z means the username is empty.
 if [[ -z "$username" ]]; then
     echo "Usage: $0 USERNAME" >&2
     exit 1

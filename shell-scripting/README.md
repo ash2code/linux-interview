@@ -86,6 +86,18 @@ if [[ -f "$file" ]]; then
 This checks whether `$file` is a regular file. The quotes protect paths that contain spaces.
 
 ```bash
+if [[ -z "$username" ]]; then
+```
+
+`-z` checks whether the value is empty. In this example, it checks whether the username is empty.
+
+```bash
+continue
+```
+
+`continue` skips the current loop item and moves to the next item.
+
+```bash
 command >/dev/null 2>&1
 ```
 
