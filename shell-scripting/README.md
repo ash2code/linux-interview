@@ -156,3 +156,8 @@ A command returns status `0` when it succeeds. Any non-zero status means failure
 - `29-check-user-exists.sh`: check a Linux user.
 - `30-while-loop.sh`: repeat while a condition is true.
 - `31-special-parameters.sh`: explain `$#`, `$?`, `$@`, and `$0`.
+- `32-compare-strings.sh`: compare two strings.
+- `33-check-empty-string.sh`: use `-z` and `-n` with strings.
+- `34-substring-example.sh`: extract part of a string.
+- `35-uppercase-lowercase.sh`: change string case.
+- `36-backup-last-24-hours.sh`: back up files changed in the last 24 hours.
